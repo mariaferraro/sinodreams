@@ -1,0 +1,86 @@
+
+#services-cards{
+    z-index: 9;
+}
+.ServicesCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+     -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+     animation-duration: 2s;
+     animation-name: slidein;
+}
+
+#services-cards .row {
+    height: 280px;
+    margin: -100px 5px 30px;
+}
+
+.icon-services{
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto 5px;
+    padding: 7px;
+}
+.icon-services svg {
+    width: 100%;
+    font-size: 80px;
+    margin-top: -9px;
+    vertical-align: top;
+    fill: var(--mainColor);
+}
+.ServicesCards h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 0 30px;
+}
+
+.ServicesCards a {
+    color: var(--secondaryColor);
+    bottom: 0;
+    flex-direction: column;
+    margin-top: auto;
+    cursor: pointer;
+}
+.ServicesCards a:hover {
+    margin-left: 15px;
+    color: var(--mainColor);
+    transition: 0.5s;
+}
+.ServicesCards a svg{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 1024px) { 
+ #services-cards .row {
+    height: auto;
+    margin: -40px 20px 20px;
+    flex-direction: row;
+ }
+ .ServicesCards{
+    width: 45%;
+    margin: 15px 5px;
+    min-height: 250px;
+ }
+ .ServicesCards h3 {
+    font-size: 22px;
+  }
+  .icon-services {
+    width: 70px;
+    height: 70px;
+  }
+}

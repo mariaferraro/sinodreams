@@ -1,0 +1,104 @@
+#steps{
+    padding: 150px 0;
+    background-image: url(../images/Fondo-pasos.jpg);
+    background-image: image-set(
+    url("../images/Fondo-pasos.webp"),
+    url("../images/Fondo-pasos.jpg")
+  );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#steps .row{
+    height: 420px;
+}
+.steps-text{
+    text-align: left !important;
+    max-width: 28%;
+    width: 100%;
+    height: auto;
+    vertical-align: middle !important; 
+}
+
+.StepsCards{
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: var(--mainColor);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+     -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+}
+.StepsCards:hover{
+    transform: translateY(-3%) !important;
+}
+
+.StepsCards .number-card{
+    text-align: center;
+}
+.StepsCards .number-card span{
+    color:#ffffff !important;
+    font-family: 'Vidaloka', sans-serif !important;
+    font-size: 8rem;
+}
+.StepsCards h5{
+        color:#ffffff !important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+}
+.StepsCards p{
+        color:#ffffff !important;
+}
+
+.StepsCards.card-01{
+    color: var(--textColor);
+    background-image: url(../images/Fondo-paso1.jpg);
+    background-image: image-set(
+    url("../images/Fondo-paso1.webp"),
+    url("../images/Fondo-paso1.jpg")
+  );
+    background-size: cover;
+    transition: 0.8s;
+}
+.StepsCards.card-02{
+    color: var(--textColor);
+    background-image: url(../images/Fondo-paso2.jpg);
+    background-image: image-set(
+    url("../images/Fondo-paso2.webp"),
+    url("../images/Fondo-paso2.jpg")
+  );
+    background-size: cover;
+    transition: 0.8s;
+}
+.StepsCards.card-03{
+    color: var(--textColor);
+    background-image: url(../images/Fondo-paso3.jpg);
+    background-image: image-set(
+    url("../images/Fondo-paso3.webp"),
+    url("../images/Fondo-paso3.jpg")
+  );
+    background-size: cover;
+    transition: 0.8s;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  #steps{
+    padding: 60px 0;
+  }
+  .StepsCards{
+    max-width: 280px;
+  }
+  .steps-text {
+    text-align: center !important;
+    max-width: 100%;
+    padding: 30px;
+  }
+  #steps .row {
+    height: 100%;
+    flex-direction: row;
+ }
+}

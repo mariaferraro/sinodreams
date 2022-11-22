@@ -1,0 +1,152 @@
+#Contact{
+    margin-top: -2px;
+    background-color: vas(--mainColor);
+    background-image: url(../images/Fondo-contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-x: hidden;
+}
+#Contact .content{
+    padding:150px 0;
+    z-index: 3;
+    display: block;
+    position: relative;
+}
+#Contact .text-column{
+    max-width: 500px;
+}
+#Contact .text-column h2, .text-column p{
+    color: #ffffff;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+#Contact .text-column p svg{
+    vertical-align: middle;
+}
+#Contact a{
+    color: #ffffff;
+    cursor: pointer;
+}
+#Contact a:hover{
+    color: var(--secondaryColor);
+    cursor: pointer;
+}
+
+#Contact .form-column{
+    max-width: 500px;
+    min-height: 120px;
+    width: 100%;
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+#Contact video{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+#Contact .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #436acedf;
+    mix-blend-mode: multiply;
+    z-index: 2;
+}
+input, textarea {
+    width: 100%;
+    margin: 12px 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+input::placeholder, textarea::placeholder {
+    position: absolute !important;
+    top: 10px !important;
+    color: #909090;
+}
+input[type="submit"] {
+    margin: 40px auto 10px;
+    max-width: 300px;
+    background: var(--mainColor);
+    color: #fff;
+}
+input[type="submit"]:hover {
+    background: var(--secondaryColor);
+}
+textarea {
+    height: 100px;
+}
+
+.swal-button {
+  font-weight: 300;
+  background-color: var(--secondaryColor);
+  color: #ffffff;
+  padding: 10px 35px;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-decoration-line: none;
+  cursor: pointer;
+}
+.swal-button:hover {
+  background-color: var(--mainColor);
+  background: var(--gradientColor);
+  transition: all 0.5s;
+}
+.swal-modal{
+    border-radius: 15px;
+}
+.swal-title {
+    font-family: 'Vidaloka', sans-serif;
+    font-size: 35px;
+}
+.swal-overlay--show-modal .swal-modal {
+    padding: 10px;
+}
+.contact-captcha{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.rc-anchor-light.rc-anchor-normal {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    #Contact .content{
+        padding:85px 0;
+    }
+    #Contact .row{
+        margin:0 25px;
+    }
+    #Contact .text-column{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    .contact-captcha{
+        margin: 0 !important;
+        transform: scale(0.84);
+        transform-origin: 0 0;
+    }
+}

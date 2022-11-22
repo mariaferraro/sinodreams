@@ -1,0 +1,33 @@
+
+#AboutUs{
+    padding: 80px 0 120px;
+    position: relative;
+}
+.fade-animation{
+    animation-duration: 1s;
+    animation-name: animate-fade;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+#AboutUs .image-side{
+    padding: 20px;
+}
+
+#AboutUs .text-side{
+    padding: 0 40px;
+}
+#AboutUs .text-side p{
+      margin: 10px 0 10px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+ #AboutUs {
+    padding: 20px 0 60px;
+ }
+ #AboutUs .image-side{
+     padding: 30px;
+ }
+ #AboutUs .text-side{
+       padding: 0 30px;
+ }
+}

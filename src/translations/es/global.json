@@ -1,0 +1,96 @@
+{
+    "Navbar":{
+        "about":"Nosotros",
+        "services":"Servicios",
+        "inspection":"Inspección",
+        "storage":"Almacenaje",
+        "contact":"Contacto"
+    },
+    "Hero":{
+        "title":"TU PERSONAL SHOPPER EN ",
+        "china":"CHINA",
+        "contact":"Saber más"
+    },
+    "Cards":{
+        "vendor-validation":"Verificación \n de Proveedores",
+        "sourcing":"Búsqueda de \n Proveedores",
+        "factory-visit":"Visita de \n Fabrica",
+        "market-visit":"Visita de \n Mercado",
+        "read-more":"Leer más"
+    },
+    "About":{
+        "title":"Sobre Nosotros",
+        "text":"Sinodreams Business Consulting Co Ltd es una empresa con sede en Shanghai que ofrece diversos servicios de consultoría tales como: búsqueda y verificación de proveedores, visitas a fábricas y mercados, así como inspección y calidad de productos para clientes que estén interesados en realizar compras en China continental. \n \n Establecido en enero de 2021 por María Isabel Velásquez, una emprendedora venezolana que tiene abundante experiencia en China y el mercado chino. Nuestros clientes provienen de diferentes regiones geográficas, incluidas América del Sur y el sudeste asiático.",
+        "contact":"Contáctanos"
+    },
+    "Steps":{
+        "title":"3 Simples Pasos",
+        "subtitle":"Garantizamos la mejor comunicación, seguridad y transparencia en nuestros procesos de importación desde China hasta el destino que elijas.",
+        "button":"Comenzar ahora",
+        "card01-title":"Contacto y \n Asesoramiento",
+        "card01-text":"Con el primer contacto hablaremos de lo que buscas y te daremos ayuda y consejo. Iniciaremos la búsqueda.",
+        "card02-title":"Negociación \n y Compra",
+        "card02-text":"Una vez que estemos seguros de los productos y proveedor, le ofrecemos apoyo en la negociación y adquisición de los mismos.",
+        "card03-title":"Monitoreo \n de envíos",
+        "card03-text":"Realizamos la inspección y logística de los productos antes del envío, revisamos uno a uno, para asegurar su inversión."
+    },
+    "Services":{
+        "title":"Servicios",
+        "subtitle":"Desde encontrar la mejor fábrica en China para sus productos, evitando estafas y obteniendo el mejor precio del mercado, hasta el proceso de inspección de calidad del proveedor seleccionado para asegurar que los productos cumplen con sus requisitos de calidad antes del pago y envío.",       
+        "vendor-validation":"Verificación de Proveedores",
+        "vendor-validation-info":"Si ya encontraste a tu proveedor y solo quieres verificar que sea una empresa real y fiable, puedes pedir nuestro servicio de Verificación de Proveedores. Este servicio, incluye toda la información relevante a la empresa, por ejemplo:",
+        "vendor-validation-bullet1":"Cúando fue fundada.",
+        "vendor-validation-bullet2":"Cúantos empleados tiene.",
+        "vendor-validation-bullet3":"Donde está registrada su dirección oficial.",
+        "vendor-validation-bullet4":"Quien es o quienes son los representante legal.",
+        "vendor-validation-bullet5":"Si han tenido alguna falta legal registrada, entre otros.",
+        "sourcing":"Búsqueda de Proveedores",
+        "sourcing-info":"En nuestro servicio de búsqueda y verificación de proveedores nuestro equipo realizará la búsqueda de sus productos consultando decenas de fabricas y resumiendo una lista que se adapte a los requerimientos y necesidades de nuestros clientes. Todas aquellas empresas incluidas en nuestra lista han sido verificadas en las bases de datos del sistema chino. \n \n Incluye:",
+        "sourcing-bullet1":"Cotización de precios con 3 proveedores verificados.",
+        "sourcing-bullet2":"Cuadro comparativo de precios.",
+        "sourcing-bullet3":"Cuadro individual.",
+        "factory-visit":"Visita de Fabrica",
+        "factory-visit-info":"Nuestro agente realizará una visita a la fábrica que el cliente ha elegido como posible proveedor. \n \n Nuestro servicio incluye:",
+        "factory-visit-bullet1":"Una llamada de 2 a 5 horas durante la visita (si se solicita)",
+        "factory-visit-bullet2":"Fotografías y videos de la fábrica y línea de producción.",
+        "factory-visit-bullet3":"Servicio de intérprete en el que el cliente podrá dialogar con la fábrica y negociar.",
+        "factory-visit-bullet4":"Finalmente, nuestro agente preparará un informe con el resumen de la visita.",
+        "market-visit":"Visita de Mercado",
+        "market-visit-info":"Nuestra visita al mercado se lleva a cabo en los mercados de exportación más populares de China, tales como el mercado de Shahe Clothes Wholesale Market en Guangzhou y el mercado de Yiwu International Trade City. Durante la visita, nuestro agente lo guiará a través de una videollamada. Con base en la información que brindan nuestros clientes, realizamos una búsqueda previa para asignar los mejores proveedores a fin de realizar la visita de la manera más rentable posible. Nuestro guía servirá de intérprete y recogerá las tarjeta de contacto de varios proveedores, tomará nota de los precios y cantidad mínima de orden y finalmente redactará un informe. \n \n El reporte incluye:",
+        "market-visit-bullet1":"Lista con mas de 20 proveedores.",
+        "market-visit-bullet2":"Mas de 20 catálogos de productos (ordenados por proveedor)",
+        "market-visit-bullet3":"Fotos y videos.",
+        "market-visit-bullet4":"5 hrs por día.",
+        "market-visit-note":"*Excluyendo tarifas de transporte y alojamiento",
+        "button":"¡Hablemos!"
+     },
+     "Inspection":{
+         "title":"Inspección de calidad \n de productos",
+         "info":"Nuestro servicio de inspección de calidad es uno de los más solicitados por parte de nuestros clientes, ya que asegurar que su inversión y que los productos que va a recibir sean acordes a lo estipulado en la cotización en cuanto a calidad, cantidad y función. El inspector visitará la fábrica o el almacén en el que se encuentran sus productos. \n \n La visita incluirá fotos y videos de los productos. En caso de que exista algún problema o inconveniente con la mercancía el inspector se pondrá en contacto de inmediato con el proveedor para reponer el producto o descontarlo de la cotización.",
+         "button":"Descubrir más"
+     },
+     "Storage":{
+         "title":"Almacenaje y Envio",
+         "info":"Nuestra empresa no incluye almacenamiento o envío de productos como parte de nuestros servicios. Sin embargo, podemos ayudar a nuestros clientes a través de los acuerdos que tenemos con diferentes empresas de almacenamiento y transporte.",
+         "button":"Contáctanos"
+     },
+     "Contact":{
+         "title":"¿Listo para comenzar?",
+         "info":"Contáctenos y le daremos la tranquilidad y seguridad que necesita para su negocio. Somos tus ojos en China.",
+         "address":"Jiuting Center Road, Jiuting Town No. 1158 Songjiang District, Shanghai, China.",
+         "input-nombre":"Nombre y Apellido",
+         "input-email":"Email",
+         "input-phone":"Teléfono",
+         "input-mensaje":"Escribe tu mensaje...",
+         "input-button":"Enviar ahora",
+         "title-alert":"¡Muy bien!",
+         "alert":"¡Gracias por contactarnos! Nos pondremos en contacto contigo lo más pronto posible.",
+         "title-error":"¡Oh oh!",
+         "error":"Lo sentimos, hubo un error con el formulario de contacto. Por favor, escríbenos directamente a: \n info@sino-dreams.com"
+     },
+     "Footer":{
+         "copyright":"Sino Dreams © 2022 - Todos los derechos reservados",
+         "privacy-policy":"Políticas de Privacidad",
+         "terms-conditions":"Términos y Condiciones"
+     }
+}

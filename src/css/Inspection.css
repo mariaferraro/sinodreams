@@ -1,0 +1,74 @@
+#Inspection{
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: hidden;
+}
+.inspection-text{
+    padding: 50px;
+    background: var(--mainColor);
+    background-image: url(../images/fondo-inspeccion.jpg);
+    background-image: image-set(
+    url("../images/fondo-inspeccion.webp"),
+    url("../images/fondo-inspeccion.jpg")
+  );
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 20px 20px 0;
+    max-width: 65%;
+    width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+.text-container{
+    max-width: 600px;
+    margin-right: 60px;
+}
+.inspection-text h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.inspection-text p{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.inspection-img{
+    margin-left: -60px;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 50%;
+    z-index: 2;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #Inspection{
+        display: block;
+    }
+    .inspection-text{
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 150px;
+    }
+    .inspection-img{
+        max-width: 600px;
+        width: 80%;
+        margin: -100px 0 20px auto;
+        position: relative;
+    }
+    .text-container{
+        position: initial;
+        margin-right: 0;
+    }
+
+}
+@media only screen and (min-width: 1500px) {
+    .text-container{
+        position: absolute;
+        right: 120px;
+        top: 10%;
+    }
+}

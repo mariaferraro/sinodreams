@@ -1,0 +1,96 @@
+{
+    "Navbar":{
+        "about":"About us",
+        "services":"Services",
+        "inspection":"Inspection",
+        "storage":"Storage",
+        "contact":"Contact"
+    },
+    "Hero":{
+        "title":"YOUR PERSONAL SHOPPER IN ",
+        "china":"CHINA",
+        "contact":"Find out more"
+    },
+    "Cards":{
+        "vendor-validation":"Vendor \n Validation",
+        "sourcing":"Sourcing",
+        "factory-visit":"Factory \n Visit",
+        "market-visit":"Market \n Visit",
+        "read-more":"Read More"
+    },
+    "About":{
+        "title":"About us",
+        "text":"Sinodreams Business Consulting Co Ltd is a Shanghai-based company that offers various consulting services such as: supplier search and verification, visits to factories and markets, as well as inspection and quality of products for clients who are interested in making purchases in Mainland China. \n \n Established in January 2021 by María Isabel Velásquez, a Venezuelan entrepreneur who has abundant experience in China and the Chinese market. Our clients come from different geographic regions, including South America and Southeast Asia.",
+        "contact":"Contact us"
+    },
+    "Steps":{
+        "title":"3 Easy Steps",
+        "subtitle":"We guarantee the best communication, security and transparency in our import processes from China to the destination of your choice.",
+        "button":"Get started",
+        "card01-title":"Contact \n and Advice",
+        "card01-text":"With the first contact we will talk about what you are looking for and we will give you help and advice. We will start the search.",
+        "card02-title":"Negotiation \n and Purchase",
+        "card02-text":"Once we are sure of the products and supplier, we offer you support in the negotiation and acquisition of the same.",
+        "card03-title":"Shipment \n Monitoring",
+        "card03-text":"We carry out the inspection and logistics of the products before shipping, we check one by one, to ensure your investment."
+    },
+    "Services":{
+        "title":"Services",
+        "subtitle":"From finding the best factory in China for your products, avoiding scams and getting the best price in the market, to the quality inspection process of the selected supplier to ensure that the products meet your quality requirements before payment and shipment.",
+        "vendor-validation":"Vendor Validation",
+        "vendor-validation-info":"If you have already selected a supplier and you just want to verify that it is a real and reliable company, you can request our Vendor Validation service. This service includes all the information relevant to the company, such as:",
+        "vendor-validation-bullet1":"When was the company founded.",
+        "vendor-validation-bullet2":"How many employees do they have registered.",
+        "vendor-validation-bullet3":"Where is their official address is registered.",
+        "vendor-validation-bullet4":"Who is or who are the legal representatives.",
+        "vendor-validation-bullet5":"Whether or not they have had any registered legal fault, etc.",
+        "sourcing":"Sourcing",
+        "sourcing-info":"In our supplier search and verification service, our team will search for your products by consulting dozens of factories and summarizing a list that suits the requirements and needs of our customers. All those companies included in our list have been verified in the databases of the Chinese system. \n \n It includes:",
+        "sourcing-bullet1":"Price quotation with 3 verified suppliers.",
+        "sourcing-bullet2":"Price Comparison Chart.",
+        "sourcing-bullet3":"Single frame.",
+        "factory-visit":"Factory Visit",
+        "factory-visit-info":"Our agent will make a visit to the factory that the client has chosen as a possible supplier. \n \n Our service includes:",
+        "factory-visit-bullet1":"A 2'-3hour call during the visit (if requested)",
+        "factory-visit-bullet2":"Photographs and videos of the factory and production line.",
+        "factory-visit-bullet3":"Interpreter service in which the client can talk with the factory and negotiate.",
+        "factory-visit-bullet4":"Finally, our agent will prepare a report with the summary of all relevant details of the visit.",
+        "market-visit":"Market Visit",
+        "market-visit-info":"Our market visit takes place in the most popular export markets in China, such as Shahe Clothes Wholesale Market in Guangzhou and Yiwu International Trade City Market. During the visit, our agent will guide you through a video call. Based on the information provided by our clients, we carry out a preliminary search to assign the best suppliers in order to carry out the visit in the most profitable way possible. Our guide will act as an interpreter and will collect the contact cards of various suppliers, take note of the prices and minimum order quantity and finally write a report. \n \n Report includes:",
+        "market-visit-bullet1":"List with more than 20 providers.",
+        "market-visit-bullet2":"More than 20 product catalogs (ordered by supplier)",
+        "market-visit-bullet3":"Photos and videos.",
+        "market-visit-bullet4":"5 hours a day.",
+        "market-visit-note":"*Price excludes travel and accomodation expenses",
+        "button":"Let's Talk!"
+    },
+    "Inspection":{
+        "title":"Product and Quality \n Inspection",
+        "info":"Our quality inspection service is one of the most requested by our clients, since it ensures that your investment and that the products you are going to receive are in accordance with what is stipulated in the quote in terms of quality, quantity and function. The inspector will visit the factory or warehouse where your products are located. \n \n The visit will include photos and videos of the products. In case there is any problem or inconvenience with the merchandise, the inspector will immediately contact the supplier to replace the product or discount it from the price.",
+        "button":"Discover more"
+    },
+    "Storage":{
+        "title":"Storage and Shipping",
+        "info":"Our company does not include storage or shipping of products as part of our services. However, we can help our clients through the agreements we have with different storage and shipping companies.",
+        "button":"Contact us"
+    },
+    "Contact":{
+        "title":"Ready to get started?",
+        "info":"Contact us and we will give you the peace of mind and security you need for your business. We are your eyes in China.",
+        "address":"Jiuting Center Road, Jiuting Town No. 1158 Songjiang District, Shanghai, China.",
+        "input-nombre":"Full Name",
+        "input-email":"Email",
+        "input-phone":"Phone",
+        "input-mensaje":"Type your message...",
+        "input-button":"Send now",
+        "title-alert":"Yeah!",
+        "alert":"Thanks for contacting us! We will get in touch with you as soon as possible.",
+        "title-error":"Oh no!",
+        "error":"Sorry, there was an error with the contact form. Please feel free to email us directly to: \n info@sino-dreams.com"
+    },
+    "Footer":{
+        "copyright":"Sino Dreams © 2022 - All Rights Reserved",
+        "privacy-policy":"Privacy Policy",
+        "terms-conditions":"Terms & Conditions"
+    }
+}

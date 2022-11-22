@@ -1,0 +1,154 @@
+#Services{
+    padding-top: 80px;
+    padding-bottom: 320px;
+    background-image: url(../images/Fondo-servicios.png);
+    background-image: image-set((
+    url("../images/Fondo-servicios.webp") 1x,
+    url("../images/Fondo-servicios.png") 1x)
+  );
+    background-size: cover;
+    background-position: bottom right;
+    margin-bottom: -200px;
+}
+#Services .services-top{
+    margin: 20px auto 60px;
+    max-width: 750px;
+}
+
+/* Style the tabs */
+#Services .services-tabs {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+  }
+
+#Services .tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  #Services .bloc-tabs {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 290px;
+    width: 100%;
+    margin-right: 40px;
+  }
+  #Services .tabs {
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    background: transparent;
+    cursor: pointer;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    flex-grow: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  #Services .tabs svg{
+    margin-right: 8px;
+  }
+  #Services .tabs:hover {
+    background: #f2f2f2;
+  }
+  #Services .tabs:hover:first-child {
+    border-radius: 20px 0 0 0;
+  }
+  #Services .tabs:hover:last-child {
+    border-radius: 0 0 0 20px;
+  }
+  #Services .active-tabs  {
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(13,175,215,1) 0%, rgba(37,69,151,1) 100%);
+  }
+  #Services .tabs.active-tabs:hover  {
+    background: linear-gradient(90deg, rgba(13,175,215,1) 0%, rgba(37,69,151,1) 100%);
+  }
+
+#Services .active-tabs:first-child{
+    border-radius: 20px 0 0 0;
+}
+#Services .active-tabs:last-child{
+  border-radius: 0 0 0 20px;
+  border-bottom: 0;
+}
+  #Services button {
+    border: none;
+  }
+  #Services .content-tabs {
+    display: inline-flex;
+    width: 65%;
+  }
+  #Services .content {  
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  #Services .content h2 {
+    color: #787878;
+    padding: 0px 0 5px 0px;
+  }
+  #Services .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  #Services .content p {
+    color: #787878;
+    width: 100%;
+    height: 100%;
+  }
+  #Services .active-content {
+    display: block;
+  }
+
+@media only screen and (max-width: 1024px) { 
+  #Services {
+    padding: 0 20px;
+    margin-bottom: 80px;
+  }
+  #Services .services-top {
+    margin: 60px auto;
+  }
+  #Services .bloc-tabs {
+    display: inline-flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+  }
+  #Services .tabs {
+    font-size: 16px;
+    flex-grow: 1;
+    padding: 12px;
+  }
+  #Services .active-tabs:last-child{
+    border-radius: 0 20px 0 0;
+  }
+  #Services .content-tabs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) { 
+  #Services .tabs {
+    font-size: 3.5vw;
+  }
+}

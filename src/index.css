@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&family=Vidaloka&display=swap');
+
+.languaje-flags.china-flag{display:none;}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--mainColor: #254597;
+	--secondaryColor: #0DAFD7;
+  --gradientColor: linear-gradient(90deg, rgba(13,175,215,1) 0%, rgba(37,69,151,1) 100%);
+	--textColor: #333333;
+}
+
+#root {
+  white-space: pre-line;
+}
+
+html{
+  scroll-behavior:smooth;
+  overflow-x: hidden;
+} 
+
+html, p, body, code{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--textColor);
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Vidaloka', sans-serif;
+  font-weight: 600;
+  color: var(--textColor);
+}
+h1{font-size: 49px;}
+h2{font-size: 40px;}
+h3{font-size: 31px;}
+h4{font-size: 25px;}
+h5{font-size: 20px;}
+h6{font-size: 18px;}
+
+p{margin: 5px 0;}
+
+ul {
+  margin-left: 30px;
+}
+hr{
+  border-top: 1px solid #e2e2e2;
+  margin-bottom: 20px;
+}
+
+img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+a:any-link {
+  text-decoration-line: none;
+  cursor: pointer;
+}
+
+section{
+  display: block;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+ }
+
+button {
+  border: none;
+}
+button:hover {
+  transition: 0.5s;
+}
+
+.btn{
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  background-color: var(--secondaryColor);
+  color: #ffffff;
+  padding: 10px 45px;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-decoration-line: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover{
+  background-color: var(--mainColor);
+  background: var(--gradientColor);
+  transition: all 0.5s;
+}
+.btn:hover span {
+  padding-right: 25px;
+}
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-secondary{
+  background-color: var(--mainColor)!important;
+}
+.btn-secondary:hover{
+  background-color: var(--secondaryColor);
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.two-columns{max-width:50%;width: 100%;flex-grow: 2;vertical-align: middle;}
+.three-columns{max-width:33%;width: 100%;flex-grow: 3;vertical-align: middle;}
+.four-columns{max-width:25%;width: 100%;flex-grow: 4;vertical-align: middle;}
+.five-columns{max-width:20%;width: 100%;flex-grow: 5;vertical-align: middle;}
+.six-columns{max-width:15%;width: 100%;flex-grow: 6;vertical-align: middle;}
+
+.text-center{text-align: center !important;}
+.text-left{text-align: left !important;}
+.text-right{text-align: right !important;}
+
+.white-text{color:#ffffff;}
+
+span[aria-label="Loading Spinner"]{
+  position: absolute !important;
+top: 25% !important;
+left: 50% !important;
+}
+
+/* Responsive */
+.pc-only{
+  display:block;
+}
+.ipad-pc-only{
+  display:block;
+}
+.mobile-only{
+  display:none;
+}
+@media only screen and (max-width: 1024px) {
+  .pc-only{
+    display:none;
+  }
+
+  .row{flex-direction: column;}
+  .two-columns, .three-columns, .four-columns, .five-columns, .six-columns{max-width:100%;display: block;}
+
+}
+@media only screen and (max-width: 767px) {
+
+h1{font-size: 45px;}
+h2{font-size: 38px;}
+
+  .ipad-pc-only{
+    display:none;
+  }
+  .mobile-only{
+    display:block;
+  } 
+}
+@media only screen and (min-width: 1024px) {
+  .two-columns{max-width:50%;width: 100%;flex-grow: 2;vertical-align: middle;}
+  .three-columns{max-width:33%;width: 100%;flex-grow: 3;vertical-align: middle;}
+  .four-columns{max-width:25%;width: 100%;flex-grow: 4;vertical-align: middle;}
+  .five-columns{max-width:20%;width: 100%;flex-grow: 5;vertical-align: middle;}
+  .six-columns{max-width:15%;width: 100%;flex-grow: 6;vertical-align: middle;}
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 10%;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
+@keyframes animate-fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

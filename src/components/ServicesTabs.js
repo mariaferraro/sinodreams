@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import '../css/ServicesTabs.css';
 import { BsPersonCheck, BsCardChecklist, BsBuilding, BsShop } from "react-icons/bs";
 import { useTranslation } from 'react-i18next';
@@ -22,25 +21,25 @@ function ServicesTabs({toggleTab, toggleState}){
         
         <div className="bloc-tabs">
         <button
-          className={toggleState == 1 ? "tabs active-tabs" : "tabs"}
+          className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}>
           <BsPersonCheck/>
           {t('Services.vendor-validation')}
         </button>
         <button
-          className={toggleState == 2 ? "tabs active-tabs" : "tabs"}
+          className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(2)}>
           <BsCardChecklist/>
           {t('Services.sourcing')}
         </button>
         <button
-          className={toggleState == 3 ? "tabs active-tabs" : "tabs"}
+          className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(3)}>
           <BsBuilding/>
           {t('Services.factory-visit')}
         </button>
         <button
-          className={toggleState == 4 ? "tabs active-tabs" : "tabs"}
+          className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(4)}>
           <BsShop/>
           {t('Services.market-visit')}
@@ -49,7 +48,7 @@ function ServicesTabs({toggleTab, toggleState}){
 
       <div className="content-tabs">
         <div
-          className={toggleState == 1 ? "content  active-content" : "content"}>
+          className={toggleState === 1 ? "content  active-content" : "content"}>
           <h4>{t('Services.vendor-validation')}</h4>
           <p>
           {t('Services.vendor-validation-info')}<br/>
@@ -69,7 +68,7 @@ function ServicesTabs({toggleTab, toggleState}){
         </div>
 
         <div
-          className={toggleState == 2 ? "content  active-content" : "content"}
+          className={toggleState === 2 ? "content  active-content" : "content"}
         >
           <h4>{t('Services.sourcing')}</h4>
           <p>{t('Services.sourcing-info')}
@@ -87,7 +86,7 @@ function ServicesTabs({toggleTab, toggleState}){
         </div>
 
         <div
-          className={toggleState == 3 ? "content  active-content" : "content"}
+          className={toggleState === 3 ? "content  active-content" : "content"}
         >
           <h4>{t('Services.factory-visit')}</h4>
           <p>{t('Services.factory-visit-info')}
@@ -106,7 +105,7 @@ function ServicesTabs({toggleTab, toggleState}){
         </div>
 
         <div
-          className={toggleState == 4 ? "content  active-content" : "content"}
+          className={toggleState === 4 ? "content  active-content" : "content"}
         >
           <h4>{t('Services.market-visit')}</h4>
           <p>{t('Services.market-visit-info')}

@@ -58,22 +58,22 @@ function App() {
           <ServicesCards 
            servicio={t('Cards.vendor-validation')}
            url='VendorValidation'
-           numero='1'
+           numero={1}
            setToggleState={setToggleState} />
           <ServicesCards 
            servicio={t('Cards.sourcing')}
            url='Sourcing'
-           numero='2'
+           numero={2}
            setToggleState={setToggleState}  />
            <ServicesCards 
             servicio={t('Cards.factory-visit')}
             url='FactoryVisit'
-            numero='3'
+            numero={3}
             setToggleState={setToggleState} />
            <ServicesCards 
             servicio={t('Cards.market-visit')}
             url='MarketVisit'
-            numero='4'
+            numero={4}
             setToggleState={setToggleState} />
          </div>
        </div>

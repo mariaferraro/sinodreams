@@ -28,9 +28,8 @@ function NavBar(){
             <li><Link to="Contact" smooth={true} duration={2000} onClick={showNavbar}>{t('Navbar.contact')}</Link></li>
             
          <div className="mobile-only">
-         <button onClick={() => i18next.changeLanguage('en')} className='language-buttons'><img className='languaje-flags' src={require('../images/English-flag.jpg')} alt='English' /></button>
-         <button onClick={() => i18next.changeLanguage('es')} className='language-buttons'><img className='languaje-flags' src={require('../images/Spanish-flag.jpg')} alt='Spanish' /></button>
-         <button onClick={() => i18next.changeLanguage('ch')} className='language-buttons'><img className='languaje-flags china-flag' src={require('../images/Chinese-flag.jpg')} alt='Chinese' /></button>
+         <button onClick={() => {i18next.changeLanguage('en');showNavbar();} } className='language-buttons'><img className='languaje-flags' src={require('../images/English-flag.jpg')} alt='English' /></button>
+         <button onClick={() => {i18next.changeLanguage('es');showNavbar();}} className='language-buttons'><img className='languaje-flags' src={require('../images/Spanish-flag.jpg')} alt='Spanish' /></button>
          </div>
 
          <button className="nav-btn nav-close-btn"	onClick={showNavbar}>
@@ -44,7 +43,6 @@ function NavBar(){
          <div className="pc-only">
          <button onClick={() => i18next.changeLanguage('en')} className='language-buttons'><img className='languaje-flags' src={require('../images/English-flag.jpg')} alt='English' /></button>
          <button onClick={() => i18next.changeLanguage('es')} className='language-buttons'><img className='languaje-flags' src={require('../images/Spanish-flag.jpg')} alt='Spanish' /></button> 
-         <button onClick={() => i18next.changeLanguage('ch')} className='language-buttons'><img className='languaje-flags china-flag' src={require('../images/Chinese-flag.jpg')} alt='Chinese' /></button> 
          </div>
      </header>
     );

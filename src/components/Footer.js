@@ -28,7 +28,7 @@ function Footer(){
             </nav>
             <div className='footer-terms'>
                 <nav>
-                    <a href='#'></a>
+                    <a href=''></a>
                 </nav>
             </div>
             <div className='footer-copyright'>
